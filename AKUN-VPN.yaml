@@ -1,0 +1,13 @@
+name: Trojan-portbale-GO/WS
+  server: rlzftawa.pisangku.studio
+  port: 443
+  type: trojan
+  password: 7794dc7a-d9d7-41c2-92eb-a9bad1a09024
+  network: ws
+  sni: rlzftawa.pisangku.studio
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: rlzftawa.pisangku.studio
